@@ -26,7 +26,7 @@ module SmsghSms
 
     if @@api_client_id != nil && @@api_client_secret != nil
       api_base = "#{API_URL_V3}&ClientId=#{@@api_client_id}&ClientSecret=#{@@api_client_secret}&From=#{sender_id}"
-      url = "#{api_base}&Content=#{CGI.escape(options[:msg])}&To=#{CGI.escape(options[:to])}"
+      url = "#{api_base}&Content=#{CGI.escape(options[:msg])}&To=#{options[:to]}"
     end
   
     raise ArgumentError, ':msg and :to params expected' if options[:msg].nil? || options[:to].nil?
