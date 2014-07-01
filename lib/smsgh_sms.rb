@@ -4,7 +4,7 @@ require 'curb-fu'
 
 module SmsghSms
   API_URL_V2 = "http://api.smsgh.com/v2/messages/send?"
-  API_URL_V3 = "http://api.smsgh.com/v3/messages/send?"
+  API_URL_V3 = "https://api.smsgh.com/v3/messages/send?"
   @@api_username = nil
   @@api_password = nil
   @@api_client_id = nil
