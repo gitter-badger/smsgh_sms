@@ -1,4 +1,5 @@
 # SmsghSms
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/edemkumodzi/smsgh_sms?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 This is a ruby wrapper that abstracts the SMSGH's SMS API. This gem has extra garnishing to make smsing via Ruby more tasteful and less painful.
 
